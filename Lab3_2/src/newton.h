@@ -22,12 +22,20 @@ double newton(double (*funkcja)(double x),double startx,int n,double x0 )
      for(int i=0;i<n;i++)
      {
 
+<<<<<<< HEAD
          startx=startx-funkcja(startx)/pochodna(funkcja,startx,0.0000001);
+=======
+         startx=startx-funkcja(startx)/pochodna(funkcja,startx,0.0001);
+>>>>>>> origin/master
          e0=e1;
          e1=e2;
          e2=startx-x0;
          double p=1;
+<<<<<<< HEAD
          p=obliczP(e2,e1,e0);
+=======
+         if(i>2)p=obliczP(e2,e1,e0);
+>>>>>>> origin/master
 
 
          printf("%25.15f %25.15f %25.15f %f\n",funkcja(startx),startx,e2,p);
@@ -35,6 +43,7 @@ double newton(double (*funkcja)(double x),double startx,int n,double x0 )
      }
      return startx;
 }
+<<<<<<< HEAD
 double sieczne(double(*funkcja)(double x),double startx1,double startx2,int n,double x0)
 {
       double e2=1;
@@ -58,6 +67,8 @@ double sieczne(double(*funkcja)(double x),double startx1,double startx2,int n,do
       }
       return startx2;
 }
+=======
+>>>>>>> origin/master
 
 
 
