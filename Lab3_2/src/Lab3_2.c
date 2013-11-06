@@ -4,7 +4,7 @@
 #include "funkcje.h"
 
 int main(int argc, const char* argv[]) {
-<<<<<<< HEAD
+
   printf("newton \n funkcja lograrytmicza \n");
   double x0=newton(f1,3.0,20,1.0);
   printf("%f\n",x0);
@@ -18,10 +18,9 @@ int main(int argc, const char* argv[]) {
   printf("wielomian \n");
   double x3=sieczne(f2,-20.1,-20.0,20,-3.284277537306950);
   printf("%f\n",x3);
-=======
 
-  double x0=newton(f1,3.0,20,1.0);
-  printf("%f",x0);;
->>>>>>> origin/master
+
+
+
   return 0;
 }
