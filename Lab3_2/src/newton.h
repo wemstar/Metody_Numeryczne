@@ -13,9 +13,9 @@ double obliczP(double e2,double e1,double e0)
 
 }
 
-double newton(double (*funkcja)(double x),double startx,int n,double x0 )
+double newton(double (*funkcja)(double x),double startx,int n,double x0,const char* plik )
 {
-
+     FILE *fp=fopen(plik,"w");
      double e2=1;
      double e1=1.25;
      double e0=1;
@@ -35,17 +35,19 @@ double newton(double (*funkcja)(double x),double startx,int n,double x0 )
 
 
          printf("%25.15f %25.15f %25.15f %f\n",funkcja(startx),startx,e2,p);
+         fprintf(fp,"%25.15f %25.15f %25.15f %f\n",funkcja(startx),startx,e2,p);
 
      }
+     fclose(fp);
      return startx;
 }
 
-double sieczne(double(*funkcja)(double x),double startx1,double startx2,int n,double x0)
+double sieczne(double(*funkcja)(double x),double startx1,double startx2,int n,double x0,const char* plik )
 {
       double e2=1;
       double e1=1.25;
       double e0=1;
-
+      FILE *fp=fopen(plik,"w");
       for(int i=0;i<n;i++)
       {
            double startx22=startx2;
@@ -59,8 +61,10 @@ double sieczne(double(*funkcja)(double x),double startx1,double startx2,int n,do
 
 
            printf("%25.15f %25.15f %25.15f %f\n",funkcja(startx2),startx2,e2,p);
+           fprintf(fp,"%25.15f %25.15f %25.15f %f\n",funkcja(startx2),startx2,e2,p);
 
       }
+      fclose(fp);
       return startx2;
 }
 
