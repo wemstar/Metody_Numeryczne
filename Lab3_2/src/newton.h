@@ -34,8 +34,8 @@ double newton(double (*funkcja)(double x),double startx,int n,double x0,const ch
 
 
 
-         printf("%25.15f %25.15f %25.15f %f\n",funkcja(startx),startx,e2,p);
-         fprintf(fp,"%25.15f %25.15f %25.15f %f\n",funkcja(startx),startx,e2,p);
+         printf("%d %25.15f %25.15f %25.15f %f\n",i,funkcja(startx),startx,e2,p);
+         fprintf(fp,"%d %25.15f %25.15f %25.15f %f\n",i,funkcja(startx),startx,e2,p);
 
      }
      fclose(fp);
@@ -60,8 +60,8 @@ double sieczne(double(*funkcja)(double x),double startx1,double startx2,int n,do
            p=obliczP(e2,e1,e0);
 
 
-           printf("%25.15f %25.15f %25.15f %f\n",funkcja(startx2),startx2,e2,p);
-           fprintf(fp,"%25.15f %25.15f %25.15f %f\n",funkcja(startx2),startx2,e2,p);
+           printf("%d %25.15f %25.15f %25.15f %f\n",i,funkcja(startx2),startx2,e2,p);
+           fprintf(fp,"%d %25.15f %25.15f %25.15f %f\n",i,funkcja(startx2),startx2,e2,p);
 
       }
       fclose(fp);
