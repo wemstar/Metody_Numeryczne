@@ -1,5 +1,7 @@
 __author__ = 'wemstar'
 from pylab import *
+from sympy import *
+
 
 def czytaj(plik):
     i=[]
@@ -26,7 +28,11 @@ def wykres(file):
 
     plt.plot(i,p);
     ylim([0,2])
+    ylabel("p")
+    xlabel('i')
     savefig(file+'.png')
     show()
 wykres("sieczne_log")
 wykres("sieczne_wile")
+wykres("newton_log")
+wykres("newton_wiel")
