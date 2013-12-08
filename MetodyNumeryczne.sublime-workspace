@@ -1,0 +1,457 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ma",
+				"matrix"
+			],
+			[
+				"o",
+				"obliczNastepny"
+			],
+			[
+				"om",
+				"omega"
+			],
+			[
+				"be",
+				"beta"
+			],
+			[
+				"fp",
+				"fprintf	fprintf …"
+			],
+			[
+				"lu",
+				"ludcmp"
+			],
+			[
+				"fi",
+				"fillMatrixB"
+			],
+			[
+				"pr",
+				"printf	printf …"
+			],
+			[
+				"ab",
+				"ab3"
+			],
+			[
+				"ao",
+				"ao"
+			],
+			[
+				"dru",
+				"drukujWektory"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"w",
+				"wyznaczWspolczynnik"
+			],
+			[
+				"prz",
+				"przepiszDoWektroa"
+			],
+			[
+				"a",
+				"a0"
+			],
+			[
+				"poem",
+				"poem"
+			],
+			[
+				"Poe",
+				"PoeticJuggler"
+			],
+			[
+				"Class",
+				"ClassPathXmlApplicationContext"
+			],
+			[
+				"Ap",
+				"ApplicationContext"
+			],
+			[
+				"in",
+				"indxc"
+			],
+			[
+				"Re",
+				"RequestParam"
+			],
+			[
+				"sen",
+				"send_command"
+			],
+			[
+				"ssh",
+				"ssh_newkey"
+			],
+			[
+				"tgtP",
+				"tgtPorts"
+			],
+			[
+				"tgt",
+				"tgtPorts"
+			],
+			[
+				"conn",
+				"connScan"
+			],
+			[
+				"tg",
+				"tgtPorts"
+			],
+			[
+				"try",
+				"try	Try/Except"
+			],
+			[
+				"sa",
+				"scaleFactor"
+			],
+			[
+				"scal",
+				"scaleFactor"
+			],
+			[
+				"m",
+				"min_blob_size"
+			],
+			[
+				"D",
+				"DrawingLayer"
+			],
+			[
+				"fo",
+				"foreground"
+			],
+			[
+				"car",
+				"car_in_lot"
+			],
+			[
+				"dev",
+				"dev_handle"
+			],
+			[
+				"ExtF",
+				"ExtFunction1"
+			],
+			[
+				"ret",
+				"ret_val"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"gitpu",
+				"Git: Push"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git ad",
+				"Git: Add Current File"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"snipp",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/wemstar/Dokumenty/numerki/Metody_Numeryczne/lab8/plot.p",
+		"/home/wemstar/Dokumenty/numerki/Metody_Numeryczne/lab8/lab8.c",
+		"/home/wemstar/IdeaProjects/BazyDanych/style.xml",
+		"/home/wemstar/Dokumenty/numerki/lab2/test.c",
+		"/home/wemstar/Dokumenty/numerki/lab3/lab3.c",
+		"/home/wemstar/Dokumenty/numerki/lab3/main.c",
+		"/home/wemstar/IdeaProjects/Metody Numeryczne/Lab 3/Makefile",
+		"/home/wemstar/numerki/lab2/main.c",
+		"/home/wemstar/numerki/głowne",
+		"/home/wemstar/numerki/lab2/main2.c",
+		"/home/wemstar/numerki/cos",
+		"/home/wemstar/numerki/Gauss.c",
+		"/home/wemstar/numerki/lab3/plik.txt",
+		"/home/wemstar/numerki/numerical_recipes.c/lubksb.c",
+		"/run/user/wemstar/gvfs/sftp:host=fatcat.ftj.agh.edu.pl,user=i1macura/home/studa1/i1macura/mn/A2/dane.txt",
+		"/home/wemstar/Pulpit/hawker/build-alg2-Desktop-Debug/out17len.txt",
+		"/home/wemstar/Pulpit/hawker/build-alg2-Desktop-Debug/out11len.txt",
+		"/home/wemstar/Pulpit/hawker/osobnik.h",
+		"/home/wemstar/Pulpit/hawker/osobnik.cpp",
+		"/home/wemstar/Pulpit/m.cpp",
+		"/home/wemstar/Pulpit/hawker/build-alg2-Desktop-Debug/out6len.txt",
+		"/home/wemstar/Pulpit/hawker/build-alg2-Desktop-Debug/tex.txt",
+		"/home/wemstar/Pulpit/hawker/build-alg2-Desktop-Debug/output.txt",
+		"/home/wemstar/numerki/lab2/plik.txt",
+		"/home/wemstar/Pobrane/Mathworks_Matlab_R2013a_(8.01)_Linux_MacOS_x64/mount_matlab801",
+		"/home/wemstar/numerki/numerical_recipes.c/matrx1.dat",
+		"/run/user/wemstar/gvfs/sftp:host=fatcat.ftj.agh.edu.pl,user=i1macura/home/studa1/i1macura/mn/A1/Gaus.c",
+		"/home/wemstar/numerki/LUMatrix.c",
+		"/home/wemstar/numerki/Lu2Roz.c",
+		"/home/wemstar/numerki/numerical_recipes.c/ludcmp.c",
+		"/home/wemstar/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/wemstar/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/wemstar/mavenTest/ChapterTwo/src/main/java/com/sylwek/Juggler.java",
+		"/home/wemstar/mavenTest/ChapterTwo/src/main/resources/SpringIdol.xml",
+		"/home/wemstar/mavenTest/ChapterTwo/src/main/java/com/sylwek/App.java",
+		"/home/wemstar/mavenTest/ChapterTwo/pom.xml",
+		"/home/wemstar/mavenTest/ChapterTwo/src/main/java/com/sylwek/PerformanceException.java",
+		"/home/wemstar/mavenTest/ChapterTwo/src/main/java/com/sylwek/Sonnet29.java",
+		"/home/wemstar/mavenTest/ChapterTwo/src/main/java/com/sylwek/Poem.java",
+		"/home/wemstar/mavenTest/ChapterTwo/src/main/java/com/sylwek/PoeticJuggler.java",
+		"/home/wemstar/mavenTest/ChapterTwo/src/main/java/com/sylwek/Performer.java",
+		"/home/wemstar/mavenTest/ChapterTwo/src/main/resource/SpringIdol.xml",
+		"/home/wemstar/mavenTest/CosCiekawego/src/main/java/com/sylwek/macura/App.java",
+		"/home/wemstar/mavenTest/CosCiekawego/pom.xml",
+		"/home/wemstar/mavenTest/CosCiekawego/src/main/resources/knights.xml",
+		"/home/wemstar/mavenTest/CosCiekawego/src/main/java/com/sylwek/macura/SlayDragonQuest.java",
+		"/home/wemstar/mavenTest/CosCiekawego/src/main/java/com/sylwek/macura/Quest.java",
+		"/home/wemstar/mavenTest/CosCiekawego/src/main/java/com/sylwek/macura/BraveKnight.java",
+		"/home/wemstar/mavenTest/CosCiekawego/src/main/java/com/sylwek/macura/Knight.java",
+		"/home/wemstar/mavenTest/CosCiekawego/src/main/java/com/sylwek/macura/Ministrel.java",
+		"/home/wemstar/mavenTest/CosCiekawego/src/test/java/com/sylwek/macura/AppTest.java",
+		"/run/user/wemstar/gvfs/sftp:host=fatcat.ftj.agh.edu.pl,user=i1macura/home/studa1/m1mudrak/skrypcik2",
+		"/home/wemstar/mavenTest/CosCiekawego/src/main/java/com/sylwek/macura/knights.xml",
+		"/home/wemstar/numerki/iterator.h",
+		"/home/wemstar/numerki/iterator.c",
+		"/home/wemstar/numerki/głowne.c",
+		"/home/wemstar/spring/gs-rest-service/initial/build.gradle",
+		"/home/wemstar/spring/gs-rest-service/initial/src/main/java/hello/Application.java",
+		"/home/wemstar/spring/ksiazka/ch2/MyBeanXml.xml",
+		"/home/wemstar/spring/gs-rest-service/initial/src/main/java/hello/GreetingController.java",
+		"/home/wemstar/spring/gs-rest-service/initial/src/main/java/hello/Greeting.java",
+		"/home/wemstar/violent/SSHBotnet.py",
+		"/home/wemstar/violent/NmapScanner.py",
+		"/home/wemstar/violent/TCPSceanner.py",
+		"/home/wemstar/testgit/fingMovment.py",
+		"/home/wemstar/testgit/KeyMatch.py",
+		"/home/wemstar/testgit/bing.py",
+		"/home/wemstar/testgit/ImgaeZoom.py",
+		"/home/wemstar/testgit/MovingTarget.py",
+		"/home/wemstar/testgit/cursorPl.py",
+		"/home/wemstar/testgit/pogodynaka.py",
+		"/home/wemstar/testgit/motionBLur.py",
+		"/home/wemstar/testgit/noCar.py",
+		"/home/wemstar/testgit/SpinCam.py",
+		"/home/wemstar/testgit/dilation.py",
+		"/home/wemstar/testgit/canals.py",
+		"/home/wemstar/testgit/photoBoot.py",
+		"/home/wemstar/testgit/interwalTime.py",
+		"/home/wemstar/testgit/drawCircle.py",
+		"/home/wemstar/testgit/simple.py",
+		"/home/wemstar/testgit/setup.py",
+		"/home/wemstar/idea-IC-129.713/Install-Linux-tar.txt",
+		"/home/wemstar/testgit/PDev.h ",
+		"/home/wemstar/testgit/helloworld.c",
+		"/home/wemstar/testgit/spammodule.c",
+		"/home/wemstar/testgit/extne.c",
+		"/home/wemstar/testgit/cos.txt",
+		"/home/wemstar/build.gradle",
+		"/home/wemstar/p4v/extMerge",
+		"/home/wemstar/p4v/extDiff",
+		"/home/wemstar/testgit/.git/COMMIT_EDITMSG"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"x,r",
+			",",
+			"r",
+			"x,r",
+			",",
+			"gaussj",
+			"deter",
+			"m_elem",
+			"a",
+			"drukuj",
+			"a",
+			"m_elem",
+			"a",
+			"selection",
+			"ctrl+alt+",
+			"a",
+			"*.5",
+			"img",
+			"Dispaly"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.git":
+	{
+		"height": 112.0
+	},
+	"project": "MetodyNumeryczne.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

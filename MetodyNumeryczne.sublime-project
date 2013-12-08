@@ -1,0 +1,29 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "FunkcjePlotujace"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "lab5"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "lab6"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "lab8"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "Sprawka"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "lab7"
+		}
+	]
+}
