@@ -156,10 +156,18 @@
 	"buffers":
 	[
 		{
-			"file": "lab8/plot.p",
+			"file": "lab11/lab11.c",
 			"settings":
 			{
-				"buffer_size": 1210,
+				"buffer_size": 1390,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lab11/plot.p",
+			"settings":
+			{
+				"buffer_size": 958,
 				"line_ending": "Unix"
 			}
 		},
@@ -167,7 +175,7 @@
 			"file": "lab9/lab09.c",
 			"settings":
 			{
-				"buffer_size": 387,
+				"buffer_size": 1446,
 				"line_ending": "Unix"
 			}
 		}
@@ -175,16 +183,28 @@
 	"build_system": "Packages/User/ansic.sublime-build",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 327.0,
 		"selected_items":
 		[
 			[
-				"gitpu",
+				"git pus",
 				"Git: Push"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
 			],
 			[
 				"git com",
 				"Git: Commit"
+			],
+			[
+				"gitpu",
+				"Git: Push"
 			],
 			[
 				"git ad",
@@ -240,13 +260,23 @@
 	},
 	"file_history":
 	[
+		"/home/wemstar/Dokumenty/numerki/Metody_Numeryczne/lab10/plot.p",
+		"/home/wemstar/Dokumenty/numerki/Metody_Numeryczne/lab9/plot.p",
+		"/home/wemstar/Dokumenty/numerki/Metody_Numeryczne/lab10/lab10.c",
+		"/home/wemstar/Dokumenty/numerki/Metody_Numeryczne/lab9/lab09.c",
+		"/run/user/wemstar/gvfs/sftp:host=fatcat.ftj.agh.edu.pl,user=i1macura/home/studa1/i1macura/mn/A10/n15.dat",
+		"/home/wemstar/BazyDanych/BazyDanych.iml",
+		"/home/wemstar/Dokumenty/numerki/Metody_Numeryczne/lab9/funkcja1.txt",
+		"/home/wemstar/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/media/wemstar/USB DISK/lab8/lab8Frm.cpp",
+		"/home/wemstar/Dokumenty/numerki/Metody_Numeryczne/lab9/plik.txt",
+		"/home/wemstar/Dokumenty/numerki/Metody_Numeryczne/lab8/plot.p",
 		"/home/wemstar/Pobrane/oceny-zad-2 (1)",
 		"/home/wemstar/Dokumenty/numerki/Metody_Numeryczne/.git/info/exclude",
 		"/home/wemstar/Dokumenty/numerki/lab8/logarytm_1",
 		"/home/wemstar/Dokumenty/numerki/Metody_Numeryczne/lab8/lab8.c",
 		"/home/wemstar/Dokumenty/numerki/lab8/lab8.c",
 		"/home/wemstar/Dokumenty/numerki/lab8/plot.p",
-		"/home/wemstar/Dokumenty/numerki/Metody_Numeryczne/lab8/plot.p",
 		"/home/wemstar/IdeaProjects/BazyDanych/style.xml",
 		"/home/wemstar/Dokumenty/numerki/lab2/test.c",
 		"/home/wemstar/Dokumenty/numerki/lab3/lab3.c",
@@ -353,6 +383,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"eps",
+			"odchiwlenie",
+			"yaxis",
+			"xaxis ",
+			"build",
+			"/home/wemstar/IdeaProjects/BazyDanych",
 			"Położenie przybliżenia",
 			"x,r",
 			",",
@@ -395,19 +431,171 @@
 			[
 				{
 					"buffer": 0,
-					"file": "lab8/plot.p",
+					"file": "lab11/lab11.c",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1210,
+						"buffer_size": 1390,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								551,
-								551
+								1125,
+								1125
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 342.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lab11/plot.p",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 958,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46,
+								46
+							],
+							[
+								192,
+								192
+							],
+							[
+								355,
+								355
+							],
+							[
+								533,
+								533
+							],
+							[
+								693,
+								693
+							],
+							[
+								841,
+								841
 							]
 						],
 						"settings":
@@ -519,135 +707,32 @@
 							"syntax": "Packages/Pascal/Pascal.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 28.0,
+						"translation.y": 95.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "lab9/lab09.c",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 387,
+						"buffer_size": 1446,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								172,
-								172
+								109,
+								109
 							]
 						],
 						"settings":
 						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"sublime_auto_complete": true,
-							"syntax": "Packages/C++/C++.tmLanguage"
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -734,7 +819,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 544.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
